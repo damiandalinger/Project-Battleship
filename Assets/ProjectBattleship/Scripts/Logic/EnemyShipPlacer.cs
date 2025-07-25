@@ -14,7 +14,7 @@ public class EnemyShipPlacer : MonoBehaviour
     #region Fields
 
     [Tooltip("List of enemy ship types that should be placed on the grid.")]
-    [SerializeField] private List<ShipTypeSO> _shipsToPlace;
+    [SerializeField] private List<ShipType> _shipsToPlace;
 
     [Tooltip("Tile state configuration used to define different states.")]
     [SerializeField] private TileStateConfig _config;

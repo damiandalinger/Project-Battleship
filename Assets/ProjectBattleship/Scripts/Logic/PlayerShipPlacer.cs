@@ -16,7 +16,7 @@ public class PlayerShipPlacer : MonoBehaviour
     #region Fields
 
     [Tooltip("List of ships the player needs to place on their grid.")]
-    [SerializeField] private List<ShipTypeSO> _shipsToPlace;
+    [SerializeField] private List<ShipType> _shipsToPlace;
 
     [Tooltip("Main camera used to cast ray from mouse position.")]
     [SerializeField] private Camera _camera;

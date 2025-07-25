@@ -9,7 +9,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Other/Ship Type")]
-public class ShipTypeSO : ScriptableObject 
+public class ShipType : ScriptableObject 
 {
     [Tooltip("Length of the ship in tiles.")]
     public int length = 2;
